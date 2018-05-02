@@ -50,7 +50,7 @@ colldiag.mer <- function (fit, scale = TRUE, center = FALSE, add.intercept = TRU
 		rownames(pi) = 1:nrow(pi)}
 	result = data.frame(cbind(condindx, pi))
 	zapsmall(result)
-	}}
+	}
 
 
 collin.fnc.mer <- function(fit){
